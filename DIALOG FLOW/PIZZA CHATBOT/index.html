@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza World</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+    #main {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100vh ;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+
+<body class="bg-white self-center justify-center place-items-center ">
+    <div class="flex flex-col justify-center place-items-center text-center self-center font-thin mx-auto px-96 md:px-30 sm:px-0" id="main">
+        <h1 class="text-5xl font-extrabold self-center justify-center text-black place-content-center text-center  ">PIZZA
+            CHATBOT</h1>
+        <br>
+
+        <p class="text-xl text-black place-items-center self-center">
+            I created a pizza chatbot with Dialogflow to streamline ordering.
+        </p>
+    </div>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger intent="WELCOME" chat-title="Pizza_agent" agent-id="9504d67b-9ac0-40d5-9341-69e13021d974"
+        language-code="en"></df-messenger>
+</body>
+
+</html>
