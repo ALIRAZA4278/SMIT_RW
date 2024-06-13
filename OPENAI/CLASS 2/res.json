@@ -1,0 +1,30 @@
+{
+  "id": "chatcmpl-9TWQLFrs4lpL9kyxACfIhmsbVXzP8",
+  "object": "chat.completion",
+  "created": 1716823177,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_2DDsNQ7MK9VznAFSe8BBtdMo",
+            "type": "function",
+            "function": { "name": "getTime", "arguments": "{}" }
+          }
+        ]
+      },
+      "logprobs": null,
+      "finish_reason": "tool_calls"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 143,
+    "completion_tokens": 9,
+    "total_tokens": 152
+  },
+  "system_fingerprint": null
+}

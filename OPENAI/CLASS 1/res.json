@@ -1,0 +1,24 @@
+{
+  "id": "chatcmpl-9MEIIn6NAse4n9qz76Cz9kVrNeyMe",
+  "object": "chat.completion",
+  "created": 1715085190,
+  "model": "gpt-3.5-turbo-0125",
+  "choices": [
+    {
+      "index": 0,
+      "message": { "role": "assistant", 
+      "content": "{\n   " },
+      "logprobs": null,
+      "finish_reason": "length"
+    },
+    {
+      "index": 1,
+      "message": { "role": "assistant",
+       "content": "{\n   " },
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": { "prompt_tokens": 49, "completion_tokens": 4, "total_tokens": 53 },
+  "system_fingerprint": null
+}
